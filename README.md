@@ -1,0 +1,2 @@
+# angular2tutorial
+angular2のチュートリアルを実施するために作成したリポジトリです。
