@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router }            from '@angular/router';
+import { Router } from '@angular/router';
 
-import { Hero }        from './hero';
+import { Hero } from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
@@ -11,6 +11,7 @@ import { HeroService } from './hero.service';
   styleUrls: [ 'dashboard.component.css' ]
 })
 export class DashboardComponent implements OnInit {
+
   heroes: Hero[] = [];
 
   constructor(
